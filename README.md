@@ -1,2 +1,2 @@
-# artificial-Intelligence
-A collection of AI algorithms and experiments using C and Python.
+# Hello, GitHub!
+My name is Jean Emmanuel Etoo Dimalla. This is my first repository.
