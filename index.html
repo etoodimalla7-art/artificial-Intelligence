@@ -37,6 +37,36 @@
             </div>
         </form>
     </div>
+    <script>
+
+        // JavaScript to enhance user experience can be added here
+        document.querySelector('form').addEventListener('submit', function(event) {
+            alert('Thank you for registering!');
+        });
+        document.querySelector('form').addEventListener('reset', function(event) {
+            alert('Form has been reset.');
+        });
+        document.getElementById('name').addEventListener('input', function(event) {
+            console.log('Name input changed to: ' + event.target.value);
+        });
+        document.getElementById('email').addEventListener('input', function(event) {
+            console.log('Email input changed to: ' + event.target.value);
+        });
+        document.getElementById('dob').addEventListener('input', function(event) {
+            console.log('Date of Birth input changed to: ' + event.target.value);
+        });
+        document.getElementById('course').addEventListener('change', function(event) {
+            console.log('Course selected: ' + event.target.value);
+        });
+        alert('Welcome to the Student Registration Form!');
+        alert.window = 'Registration Form Loaded Successfully';
+    
+        document.getElementById('name').focus();
+        document.getElementById('email').focus();
+        document.getElementById('dob').focus();
+        document.getElementById('course').focus();
+
+    </script>
     
 </body>
 </html>
